@@ -35,13 +35,13 @@ public class EVA1_7_CAPTURA_AUTO {
         Scanner Captu;
         Captu = new Scanner(System.in);
         
-        System.out.println("");
+        System.out.println("Escribe la Marca");
         Marca = Captu.nextLine();
-        System.out.println("");
+        System.out.println("Escribe el Modelo");
         Modelo = Captu.nextLine();
-        System.out.println("");
+        System.out.println("Escribe el Año");
         Auto  = Captu.nextInt();
-        System.out.println("");
+        System.out.println("Escribe el Precio");
         Precio  = Captu.nextDouble();
         
         System.out.println(Marca);
